@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({
 }));
 
 
-mongoose.connect('mongodb://localhost:27017/todolistDB', {
+mongoose.connect('mongodb+srv://sachinpatwal07:nikeemessi10@cluster0.ov8aw.mongodb.net/todolistDB', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
